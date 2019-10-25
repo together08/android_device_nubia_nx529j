@@ -25,3 +25,5 @@ export VENDOR=nubia
 export DEVICE_BRINGUP_YEAR=2019
 
 ./../../$VENDOR/$DEVICE_COMMON/extract-files.sh $@
+1
+Downloading1
