@@ -1,3 +1,4 @@
+## Blobs For Nubia Z17 MiniS (nx589j)
 # acdb
 etc/acdbdata/MTP/MTP_Bluetooth_cal.acdb
 etc/acdbdata/MTP/MTP_General_cal.acdb
@@ -524,4 +525,3 @@ lib64/sensors.oem.so
 etc/firmware/nubia_tp_btn_jdi_fw.img
 etc/firmware/nubia_tp_jdi_fw.img
 etc/firmware/nubia_tp_ofilm_fw.img
-

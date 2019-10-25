@@ -14,7 +14,4 @@
 # limitations under the License.
 #
 
-TARGET_RECOVERY_DEVICE_DIRS += $(DEVICE_PATH)/twrp
-TW_INCLUDE_CRYPTO := true
-TW_INPUT_BLACKLIST := "hbtp_vm"
-TW_THEME := portrait_hdpi
+TW_MAX_BRIGHTNESS := 4095
