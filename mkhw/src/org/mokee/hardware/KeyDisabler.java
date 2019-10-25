@@ -30,7 +30,7 @@ import org.mokee.internal.util.FileUtils;
 
 public class KeyDisabler {
 
-    private static String CONTROL_PATH = "/sys/class/input/input1/0dbutton";
+    private static String CONTROL_PATH = "/sys/devices/soc/78b8000.i2c/i2c-4/4-0020/wakeup_gesture";
 
     public static boolean isSupported() {
         return FileUtils.isFileWritable(CONTROL_PATH);

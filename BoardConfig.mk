@@ -192,7 +192,7 @@ TARGET_PER_MGR_ENABLED := true
 
 # Power
 TARGET_POWERHAL_VARIANT := qcom
-TARGET_TAP_TO_WAKE_NODE := "/sys/class/input/input1/wake_gesture"
+TARGET_TAP_TO_WAKE_NODE := "/sys/devices/soc/78b8000.i2c/i2c-4/4-0020/wakeup_gesture"
 TARGET_HAS_NO_WIFI_STATS := true
 TARGET_USES_INTERACTION_BOOST := true
 
