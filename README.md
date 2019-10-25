@@ -1,4 +1,4 @@
-Copyright 2018 - The LineageOS Project
+Copyright 2019 - The MoKee Project
 
 Device configuration for ZTE nubia Z17 mini
 =======================================================
