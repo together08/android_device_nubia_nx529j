@@ -21,7 +21,7 @@ set -e
 
 DEVICE=nx589j
 VENDOR=nubia
-
+SRC=~/
 INITIAL_COPYRIGHT_YEAR=2019
 
 # Load extract_utils and do some sanity checks
