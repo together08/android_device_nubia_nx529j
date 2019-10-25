@@ -139,7 +139,7 @@ PRODUCT_PACKAGES += \
 
 # Fingerprint
 PRODUCT_PACKAGES += \
-    android.hardware.biometrics.fingerprint@2.1-service.nubia_nx569j
+    android.hardware.biometrics.fingerprint@2.1-service.nubia_nx589j
 
 # Gatekeeper HAL
 PRODUCT_PACKAGES += \
@@ -217,7 +217,7 @@ PRODUCT_COPY_FILES += \
 
 # Lights
 PRODUCT_PACKAGES += \
-    android.hardware.light@2.0-service.nx569j
+    android.hardware.light@2.0-service.nx589j
 
 # Media
 PRODUCT_COPY_FILES += \
@@ -348,7 +348,7 @@ PRODUCT_BOOT_JARS += \
 # Sensors
 PRODUCT_PACKAGES += \
     android.hardware.sensors@1.0-impl \
-    android.hardware.sensors@1.0-service.nx569j
+    android.hardware.sensors@1.0-service.nx589j
 
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/sensors/sensor_def_qcomdev.conf:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/sensor_def_qcomdev.conf \
@@ -402,4 +402,4 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/wifi/wpa_supplicant_overlay.conf:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/wpa_supplicant_overlay.conf
 
 # Call the proprietary setup
-$(call inherit-product, vendor/nubia/nx569j/nx569j-vendor.mk)
+$(call inherit-product, vendor/nubia/nx589j/nx589j-vendor.mk)

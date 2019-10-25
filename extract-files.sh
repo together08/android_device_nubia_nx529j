@@ -18,7 +18,7 @@
 
 set -e
 
-DEVICE=nx569j
+DEVICE=nx589j
 VENDOR=nubia
 
 # Load extract_utils and do some sanity checks
