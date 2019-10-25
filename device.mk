@@ -206,7 +206,9 @@ PRODUCT_COPY_FILES += \
 # Keylaouts
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/keylayout/nubia_synaptics_dsx.kl:$(TARGET_COPY_OUT_VENDOR)/usr/keylayout/nubia_synaptics_dsx.kl \
-    $(LOCAL_PATH)/keylayout/gpio-keys.kl:$(TARGET_COPY_OUT_VENDOR)/usr/keylayout/gpio-keys.kl
+    $(LOCAL_PATH)/keylayout/gpio-keys.kl:$(TARGET_COPY_OUT_VENDOR)/usr/keylayout/gpio-keys.kl \
+    $(LOCAL_PATH)/keylayout/gf5216m.kl:system/usr/keylayout/gf5216m.kl \
+    $(LOCAL_PATH)/keylayout/synaptics_btn.kl:system/usr/keylayout/synaptics_btn.kl
 
 # Lights
 PRODUCT_PACKAGES += \
