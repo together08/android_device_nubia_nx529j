@@ -24,7 +24,11 @@ namespace {
 
 using android::hardware::light::V2_0::LightState;
 
-static constexpr int DEFAULT_MAX_BRIGHTNESS = 255;
+#ifndef MAX_BACKLIGTH_4095
+      static constexpr int DEFAULT_MAX_BRIGHTNESS = 255;
+#else
+      static constexpr int DEFAULT_MAX_BRIGHTNESS = 4095;
+#endif
 
 static constexpr int HOME_MASK = 16;
 static constexpr int LEFT_MASK = 8;
@@ -36,8 +40,13 @@ static constexpr int AW_FADE_AUTO = 3;
 
 static uint32_t rgbToBrightness(const LightState& state) {
     uint32_t color = state.color & 0x00ffffff;
+#ifndef MAX_BACKLIGTH_4095
     return ((77 * ((color >> 16) & 0xff)) + (150 * ((color >> 8) & 0xff)) +
             (29 * (color & 0xff))) >> 8;
+#else
+    return ((77 * ((color >> 16) & 0xff)) + (150 * ((color >> 8) & 0xff)) +
+            (29 * (color & 0xff))) >> 4;
+#endif
 }
 
 static bool isLit(const LightState& state) {
