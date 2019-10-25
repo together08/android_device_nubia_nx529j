@@ -521,7 +521,7 @@ vendor/firmware/Generic_unsigned.ncd
 lib64/sensors.oem.so
 
 # Touchscreen firmware
+etc/firmware/nubia_tp_btn_jdi_fw.img
 etc/firmware/nubia_tp_jdi_fw.img
-etc/firmware/nubia_tp_ofilm_fw_ctcr.img
-etc/firmware/nubia_tp_ofilm_fw_ctct.img
+etc/firmware/nubia_tp_ofilm_fw.img
 
