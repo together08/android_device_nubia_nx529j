@@ -200,10 +200,10 @@ vendor/lib64/libmmcamera_dbg.so
 vendor/lib/libmmjpeg.so
 vendor/lib/libmmqjpeg_codec.so
 vendor/lib/libmmqjpegdma.so
-vendor/lib/libmmsw_detail_enhancement.so
-vendor/lib/libmmsw_math.so
-vendor/lib/libmmsw_opencl.so
-vendor/lib/libmmsw_platform.so
+#vendor/lib/libmmsw_detail_enhancement.so
+#vendor/lib/libmmsw_math.so
+#vendor/lib/libmmsw_opencl.so
+#vendor/lib/libmmsw_platform.so
 vendor/lib/libois_lc898122.so
 vendor/lib/liboptizoom.so
 vendor/lib/libremosaic_daemon.so
