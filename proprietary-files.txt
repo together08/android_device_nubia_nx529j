@@ -40,7 +40,7 @@ etc/firmware/SCTable_fcamera.asb
 #lib/libqomx_core.so
 
 # Camera
-bin/mm-qcamera-daemon
+bin/mm-qcamera-daemon|5b2e19b13b59396d335c236898c4443d8213be56
 lib/libAlgorithm.so
 lib/libNubiaImageAlgorithm.so
 lib/libNubiaImageAlgorithmBSP.so
