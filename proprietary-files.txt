@@ -509,14 +509,12 @@ lib64/libfp_client.so:vendor/lib64/libfp_client.so|242b8a91012d983de0b8deea1d2de
 lib64/libfpservice.so:vendor/lib64/libfpservice.so|02dabe4cce9639b6bb6c02f1cffbf21b4814a77f 
 lib64/libfpjni.so:vendor/lib64/libfpjni.so|5b9b37c8b11ac13fa6bf701b21d853e135b34be7
 
-# NFC
+# NFC - Hex edit from z17 mini (nx569j)
 lib64/hw/nfc_nci.bcm2079x.default.so:vendor/lib64/hw/nfc_nci.bcm2079x.default.so|265bfb5be9efa535596999b233b513011c5cb3bd
-vendor/firmware/Generic_unsigned_512_3.ncd
-vendor/firmware/Generic_unsigned_706.ncd
-vendor/firmware/Generic_unsigned_725.ncd
-vendor/firmware/Generic_unsigned_1021_1.ncd
-vendor/firmware/Generic_unsigned_fix_p2p_stuck.ncd
-vendor/firmware/Generic_unsigned.ncd
+vendor/firmware/Generic_unsigned_70ms.ncd|8f4e41a64d2b2e414ebf8ea55ad8ebc10ebccd20
+vendor/firmware/Generic_unsigned_119_1.ncd|2d5286b596d496ae93f0f737e2aa927401bb180f
+vendor/firmware/Generic_unsigned_NVM.ncd|930cb57b2f07e2aae8c7bf469aaed4e8c09882c7
+vendor/firmware/Generic_unsigned_OK.ncd|2b17af05ab63d7ee071b9ae8829596e2ce3edf52
 
 # Sensors
 lib64/sensors.oem.so
