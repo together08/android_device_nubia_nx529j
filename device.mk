@@ -20,9 +20,14 @@ DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
 # call the proprietary setup
 $(call inherit-product-if-exists, vendor/nubia/nx589j/nx589j-vendor.mk)
 
+# Audio
 PRODUCT_COPY_FILES +=  \
     $(LOCAL_PATH)/audio/mixer_paths_mtp.xml:$(TARGET_COPY_OUT_VENDOR)/etc/mixer_paths_mtp.xml \
     $(LOCAL_PATH)/audio/audio_platform_info_extcodec.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_platform_info_extcodec.xml
+
+# Fingerprint
+PRODUCT_PACKAGES += \
+    android.hardware.biometrics.fingerprint@2.0-service-custom
 
 # Keylaouts
 PRODUCT_COPY_FILES += \
