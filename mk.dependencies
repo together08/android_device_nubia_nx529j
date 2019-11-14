@@ -1,8 +1,8 @@
 [
- {
-    "repository": "android_kernel_nubia_msm8976",
-    "target_path": "kernel/nubia/msm8976"
- },
+  {
+    "repository": "android_device_nubia_msm8976-common",
+    "target_path": "device/nubia/msm8976-common"
+  },
  {
     "repository": "android_vendor_nubia_nx589j",
     "target_path": "vendor/nubia/nx589j"
