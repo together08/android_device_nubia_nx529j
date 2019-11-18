@@ -36,7 +36,7 @@ BOARD_SYSTEMIMAGE_PARTITION_SIZE := 6442450944
 BOARD_USERDATAIMAGE_PARTITION_SIZE := 54817938432 # 54817954816 - 16384
 
 # Power
-TARGET_TAP_TO_WAKE_NODE := "/sys/devices/soc/78b8000.i2c/i2c-4/4-0020/wakeup_gesture"
+TARGET_TAP_TO_WAKE_NODE := "/sys/class/input/input2/wake_gesture"
 
 # Vendor security patch level
 VENDOR_SECURITY_PATCH := 2017-04-01
