@@ -1,6 +1,6 @@
 Copyright 2019 - The MoKee Project
 
-Device configuration for Nubia Z17 MiniS
+Device configuration for Nubia Z17 MiniS (nx589j / NX589J)
 =======================================================
 
 Basic   | Spec Sheet
@@ -11,7 +11,7 @@ GPU     | Adreno 510
 Memory  | 6GB (LPDDR3 933MHz)
 Shipped Android Version | Android 7.1.1 (Nougat)
 Storage | 64GB (eMMC 5.1)
-Battery | 3200 mAh (NeoPower 3.0)
+Battery | 3000 mAh
 Weigth | 155 g (5.47 oz)
 Dimensions | 147.5 x 71.2 x 7.6 mm (5.81 x 2.80 x 0.30 in)
 Display | IPS, 1080 x 1920 pixels (~424 ppi pixel density)
