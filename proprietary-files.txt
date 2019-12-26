@@ -725,13 +725,13 @@ etc/firmware/cpp_firmware_v1_8_0.fw
 #     CAMERA TEST END     #
 ###########################
 
-# Fingerprint - Hex edit from z17 minis (nx589j)
-bin/gx_fpd:vendor/bin/gx_fpd|78bdb586720047bbf81b2a72b1649d35b4a9f135
-lib64/hw/fingerprint.default.so:vendor/lib64/hw/fingerprint.default.so|240f386e1dd4cc5518e27cd47fba1152f572e12e
-lib64/hw/gxfingerprint.default.so:vendor/lib64/hw/gxfingerprint.default.so|2587c4f31016aa9c239d1546666c88fb6ed929c9
-lib64/libfp_client.so:vendor/lib64/libfp_client.so|242b8a91012d983de0b8deea1d2def1dcec171ac
-lib64/libfpservice.so:vendor/lib64/libfpservice.so|02dabe4cce9639b6bb6c02f1cffbf21b4814a77f 
-lib64/libfpjni.so:vendor/lib64/libfpjni.so|5b9b37c8b11ac13fa6bf701b21d853e135b34be7
+# Fingerprint
+bin/gx_fpd:vendor/bin/gx_fpd
+lib64/hw/fingerprint.default.so:vendor/lib64/hw/fingerprint.default.so
+lib64/hw/gxfingerprint.default.so:vendor/lib64/hw/gxfingerprint.default.so
+lib64/libfp_client.so:vendor/lib64/libfp_client.so
+lib64/libfpservice.so:vendor/lib64/libfpservice.so
+lib64/libfpnav.so:vendor/lib64/libfpnav.so
 
 # NFC - Hex edit from z17 mini (nx569j)
 lib64/hw/nfc_nci.bcm2079x.default.so:vendor/lib64/hw/nfc_nci.bcm2079x.default.so|265bfb5be9efa535596999b233b513011c5cb3bd
