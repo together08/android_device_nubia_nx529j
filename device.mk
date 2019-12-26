@@ -26,11 +26,5 @@ $(call inherit-product-if-exists, vendor/nubia/nx529j/nx529j-vendor.mk)
 PRODUCT_PACKAGES += \
     android.hardware.biometrics.fingerprint@2.0-service-custom
 
-# Keylaouts
-PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/keylayout/gf5216m.kl:$(TARGET_COPY_OUT_VENDOR)/usr/keylayout/gf5216m.kl \
-    $(LOCAL_PATH)/keylayout/nubia_synaptics_dsx.kl:$(TARGET_COPY_OUT_VENDOR)/usr/keylayout/nubia_synaptics_dsx.kl \
-    $(LOCAL_PATH)/keylayout/synaptics_btn.kl:$(TARGET_COPY_OUT_VENDOR)/usr/keylayout/synaptics_btn.kl
-
 # Inherit from nubia msm8952-common
 $(call inherit-product, device/nubia/msm8952-common/msm8952.mk)
