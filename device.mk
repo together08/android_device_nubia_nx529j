@@ -22,12 +22,6 @@ DEVICE_PACKAGE_OVERLAYS += \
 # call the proprietary setup
 $(call inherit-product-if-exists, vendor/nubia/nx529j/nx529j-vendor.mk)
 
-# Audio
-PRODUCT_COPY_FILES +=  \
-    $(LOCAL_PATH)/audio/mixer_paths_mtp.xml:$(TARGET_COPY_OUT_VENDOR)/etc/mixer_paths_mtp.xml \
-    $(LOCAL_PATH)/audio/audio_platform_info_extcodec.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_platform_info_extcodec.xml \
-    $(LOCAL_PATH)/audio/audio_platform_info.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_platform_info.xml
-
 # Fingerprint
 PRODUCT_PACKAGES += \
     android.hardware.biometrics.fingerprint@2.0-service-custom
