@@ -14,4 +14,4 @@
 # limitations under the License.
 #
 
-TW_MAX_BRIGHTNESS := 4095
+#TW_MAX_BRIGHTNESS := 4095

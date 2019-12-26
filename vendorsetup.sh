@@ -1,0 +1,2 @@
+add_lunch_combo mk_nx529j-userdebug
+add_lunch_combo mk_nx529j-eng

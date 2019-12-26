@@ -13,4 +13,4 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/mk_nx589j.mk
+    $(LOCAL_DIR)/mk_nx529j.mk

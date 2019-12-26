@@ -28,19 +28,19 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, vendor/mk/config/common_full_phone.mk)
 
 # Inherit device configuration
-$(call inherit-product, device/nubia/nx589j/device.mk)
+$(call inherit-product, device/nubia/nx529j/device.mk)
 
 # Device identifier. This must come after all inclusions
-PRODUCT_NAME := mk_nx589j
-PRODUCT_DEVICE := nx589j
+PRODUCT_NAME := mk_nx529j
+PRODUCT_DEVICE := nx529j
 PRODUCT_BRAND := nubia
-PRODUCT_MODEL := Nubia Z17 MiniS
+PRODUCT_MODEL := Nubia Z11 Mini
 PRODUCT_MANUFACTURER := NUBIA
 
 PRODUCT_GMS_CLIENTID_BASE := android-nubia
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    PRIVATE_BUILD_DESC="NX589-user 7.1.1 NMF26F eng.nubia.20190923.183850 release-keys" \
-    TARGET_DEVICE="nx589j"
+    PRIVATE_BUILD_DESC="NX529-user 7.1.1 NMF26F eng.nubia.20190923.183850 release-keys" \
+    TARGET_DEVICE="nx529j"
 
-BUILD_FINGERPRINT := nubia/NX589J/NX589J:7.1.1/NMF26F/eng.nubia.20171020.213115:user/release-keys
+BUILD_FINGERPRINT := nubia/nx529j/nx529j:7.1.1/NMF26F/eng.nubia.20171020.213115:user/release-keys

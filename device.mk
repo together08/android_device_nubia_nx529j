@@ -20,7 +20,7 @@ DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay-mokee
 
 # call the proprietary setup
-$(call inherit-product-if-exists, vendor/nubia/nx589j/nx589j-vendor.mk)
+$(call inherit-product-if-exists, vendor/nubia/nx529j/nx529j-vendor.mk)
 
 # Audio
 PRODUCT_COPY_FILES +=  \
@@ -38,5 +38,5 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/keylayout/nubia_synaptics_dsx.kl:$(TARGET_COPY_OUT_VENDOR)/usr/keylayout/nubia_synaptics_dsx.kl \
     $(LOCAL_PATH)/keylayout/synaptics_btn.kl:$(TARGET_COPY_OUT_VENDOR)/usr/keylayout/synaptics_btn.kl
 
-# Inherit from nubia msm8976-common
-$(call inherit-product, device/nubia/msm8976-common/msm8976.mk)
+# Inherit from nubia msm8952-common
+$(call inherit-product, device/nubia/msm8952-common/msm8952.mk)

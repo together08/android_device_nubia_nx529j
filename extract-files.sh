@@ -19,11 +19,9 @@ set -e
 
 # Required!
 SRC=~/
-export DEVICE=nx589j
-export DEVICE_COMMON=msm8976-common
+export DEVICE=nx529j
+export DEVICE_COMMON=msm8952-common
 export VENDOR=nubia
 export DEVICE_BRINGUP_YEAR=2019
 
 ./../../$VENDOR/$DEVICE_COMMON/extract-files.sh $@
-1
-Downloading1
