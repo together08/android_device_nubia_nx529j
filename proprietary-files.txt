@@ -736,11 +736,6 @@ lib64/libfpnav.so:vendor/lib64/libfpnav.so
 # Sensors
 lib64/sensors.oem.so
 
-# Touchscreen firmware
-etc/firmware/nubia_tp_btn_jdi_fw.img
-etc/firmware/nubia_tp_jdi_fw.img
-etc/firmware/nubia_tp_ofilm_fw.img
-
 # Other firmware
 etc/firmware/a225_pfp.fw
 etc/firmware/a225_pm4.fw
