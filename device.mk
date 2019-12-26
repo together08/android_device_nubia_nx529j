@@ -16,8 +16,7 @@
 
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
-    $(LOCAL_PATH)/overlay \
-    $(LOCAL_PATH)/overlay-mokee
+    $(LOCAL_PATH)/overlay
 
 # call the proprietary setup
 $(call inherit-product-if-exists, vendor/nubia/nx529j/nx529j-vendor.mk)
