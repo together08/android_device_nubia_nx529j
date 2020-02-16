@@ -1,4 +1,4 @@
-## Blobs For Nubia Z17 MiniS (nx589j)
+## Blobs For Nubia Z11 Mini (nx529j)
 # acdb
 etc/acdbdata/MTP/MTP_Bluetooth_cal.acdb
 etc/acdbdata/MTP/MTP_General_cal.acdb
