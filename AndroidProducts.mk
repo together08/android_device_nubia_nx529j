@@ -14,3 +14,8 @@
 # limitations under the License.
 PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/mokee_nx529j.mk
+
+COMMON_LUNCH_CHOICES := \
+    mokee_nx529j-userdebug \
+    mokee_nx529j-user \
+    mokee_nx529j-eng
