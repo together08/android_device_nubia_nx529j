@@ -26,10 +26,10 @@ BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := $(DEVICE_PATH)/bluetooth
 
 # Kernel
 BOARD_KERNEL_CMDLINE += androidboot.selinux=permissive
-TARGET_KERNEL_CONFIG := mokee_nx529j_defconfig
+TARGET_KERNEL_CONFIG := lineage_nx529j_defconfig
 
 # MoKee Hardware
-JAVA_SOURCE_OVERLAYS := org.mokee.hardware|$(DEVICE_PATH)/mkhw|**/*.java
+JAVA_SOURCE_OVERLAYS := org.lineage.hardware|$(DEVICE_PATH)/mkhw|**/*.java
 
 TARGET_TAP_TO_WAKE_NODE := "/data/tp/easy_wakeup_gesture"
 
