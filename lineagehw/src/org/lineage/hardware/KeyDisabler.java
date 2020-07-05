@@ -15,9 +15,9 @@
  */
 
 
-package org.mokee.hardware;
+package org.lineage.hardware;
 
-import org.mokee.internal.util.FileUtils;
+import org.lineage.internal.util.FileUtils;
 
 /*
  * Disable capacitive keys

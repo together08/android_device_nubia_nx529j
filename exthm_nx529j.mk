@@ -24,14 +24,14 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 # Inherit from those products. Most specific first.
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
-# Inherit some common MoKee stuff.
-$(call inherit-product, vendor/mokee/config/common_full_phone.mk)
+# Inherit some common exTHmUI stuff.
+$(call inherit-product, vendor/exthm/config/common_full_phone.mk)
 
 # Inherit device configuration
 $(call inherit-product, device/nubia/nx529j/device.mk)
 
 # Device identifier. This must come after all inclusions
-PRODUCT_NAME := mokee_nx529j
+PRODUCT_NAME := exthm_nx529j
 PRODUCT_DEVICE := nx529j
 PRODUCT_BRAND := nubia
 PRODUCT_MODEL := Nubia Z11 Mini

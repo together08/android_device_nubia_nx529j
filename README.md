@@ -1,4 +1,6 @@
 Copyright 2019 - The MoKee Project
 
-Device configuration for Nubia Z11 Mini (nx529j / NX59J)
+Copyright 2019 - The exTHmUI Project
+
+Device configuration for Nubia Z11 Mini (nx529j/NX529J)
 =======================================================
